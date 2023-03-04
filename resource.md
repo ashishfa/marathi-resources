@@ -2,6 +2,8 @@
 
 - **Corpus**
   - plain text 
+    + CC100-Marathi Dataset: [link](https://metatext.io/datasets/cc100-marathi) : this is extracted from Common crwal data 2018, and it has 12Million sentences but these are phrases or truncated sentences overall extraction quality is not good.  
+    + Leipzig corpus : [link](https://wortschatz.uni-leipzig.de/en/download/Marathi) : this is text extracted from news and general websites groupd by years. it is over 1 million sentences. 
     + Marathi Wikipedia Articles [link](https://github.com/goru001/nlp-for-marathi): It has a Train set of 59.8k articles and Validation set of 25.6k articles
     + L3Cube-MahaCorpus [link](https://github.com/l3cube-pune/MarathiNLP): It is a Marathi monolingual text scraped from different internet sources. it has monolingual corpus with 24.8M sentences and 289M tokens. They also trained transformer models with this data.
 
@@ -12,7 +14,10 @@
   - sequence labellling 
     - NER 
       + L3Cube-MahaNER [link](https://github.com/l3cube-pune/MarathiNLP): The dataset is released in IOB and non-IOB form. it has has total of 25000 sentences with 8 tags (Person, Location, Organization, Measure, Time, Date, and Designation)
-  
+
+- **Lexical**
+  - Wordnet Marathi [link](https://www.cfilt.iitb.ac.in/wordnet/webmwn/wn.php) : it has good coverage of marathi words and its synonyms (33k concepts) and gloss, examples sentence, it also has links to other indian language concepts.
+
 - **Tools**
   - Transformer models (pretrained)
     + L3Cube-MahaNLP [link](https://github.com/l3cube-pune/MarathiNLP) they have models MahaBert (bert), MahaRoBERTa(Roberta), MahaAlbert(Albert), MahaGPT(gpt2) models
